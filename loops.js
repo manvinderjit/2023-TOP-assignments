@@ -37,3 +37,20 @@ for(let person of people){
 
 refused.textContent = refused.textContent.slice(0,refused.textContent.length-2) + '.';
 admitted.textContent = admitted.textContent.slice(0,admitted.textContent.length-2) + '.';
+
+
+//While Loop
+
+let j = 0;
+while(j<3){
+    alert( `number ${j}!` );
+    j++;
+}
+
+
+// Do While
+// Repeat until the input is correct over 100
+let number = 0;
+do{
+    number = prompt("Enter a number greater than 100 or cancel!");    
+}while(number<=100 && num);
